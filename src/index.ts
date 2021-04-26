@@ -1,5 +1,4 @@
 import { exit } from 'process'
-
 import input from './input.json'
 
 input.sort()
