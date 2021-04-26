@@ -5,7 +5,7 @@ module.exports = {
   plugins: ['prettier', '@typescript-eslint', 'simple-import-sort'],
   globals: {},
   rules: {
-    'prettier/prettier': 2,
+    'prettier/prettier': 'error',
     semi: ['error', 'never'],
     'simple-import-sort/imports': 'error',
     'max-len': ['error', 100, { ignoreUrls: true }],
